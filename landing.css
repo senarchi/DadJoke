@@ -15,7 +15,7 @@ img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    opacity: 0.6; /* Lower opacity for the image */
+    opacity: 0.4; /* Lower opacity for the image */
 }
 
 .content-container {
@@ -30,17 +30,38 @@ img {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3.5em;
+    color: rgb(226, 79, 79);
+    letter-spacing: 2mm;
 }
 
 .card{
-    background: linear-gradient(135deg, #ff9933, #6600cc); /* Funky gradient background */
+    background: linear-gradient(135deg, white, #969b9c); /* Funky gradient background */
     width: 80%;
-    height: 150%;
+    height: 300px;
     padding: 2px;
     margin: 2px;
     border-radius: 5px;
-    box-shadow: 0 0  15px #6600cc;
+    box-shadow: 0 0  15px #332c3a;
+    position: relative;
+    left: 10%;
+    opacity: 0.85;
+    color:black;
+    min-height: 100px;
+}
+
+button{
+    margin: 10%;
+    padding: 2%;
+    width: 50%;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(15deg, white,rgb(211, 196, 58));
+    box-shadow: 0 5px 30px grey ;
+    cursor: pointer;
+    
+    
 }
 
 p {
