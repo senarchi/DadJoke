@@ -2,7 +2,7 @@ const btn = document.querySelector(".btn");
 const text=document.querySelector(".text");
 const speech = document.querySelector(".speak");
 
-document.addEventListener('DOMContentLoaded',getJoke);
+//document.addEventListener('DOMContentLoaded',getJoke);
 
 btn.addEventListener("click",getJoke);
 speech.addEventListener('click',speakJoke);
